@@ -1,0 +1,14 @@
+
+
+path: /home/letucker/road_asset_images/YOLO_data/DatasetMixed_4000  # dataset root dir
+train: train/  # train images (relative to 'path')
+val: valid/  # val images (relative to 'path')
+test: test/
+
+names:
+  0: stop
+  1: stopLeft
+  2: go
+  3: goLeft
+  4: warning
+  5: warningLeft
